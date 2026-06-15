@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd c:\\\\Projects\\\\sentiment-trader; $env:PYTHONIOENCODING=\"utf-8\"; [Console]::InputEncoding = [System.Text.Encoding]::UTF8; \"GBP/USD\" | & \"C:\\\\Users\\\\khanm\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" main.py)",
+      "PowerShell(cd c:\\\\Projects\\\\sentiment-trader; $env:PYTHONIOENCODING=\"utf-8\"; $pythons = @\\(\"C:\\\\Users\\\\khanm\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\", \"C:\\\\Users\\\\khanm\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\python.exe\", \"C:\\\\Users\\\\khanm\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\"\\); foreach \\($p in $pythons\\) { if \\(Test-Path $p\\) { $result = & $p -c \"import requests; print\\('OK'\\)\" 2>&1; Write-Host \"$p => $result\" } })"
+    ]
+  }
+}
