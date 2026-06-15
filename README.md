@@ -4,7 +4,7 @@ A tool I built to analyze financial and political news for forex currency pairs 
 
 ## What it does
 
-You run the script, enter a currency pair like GBP/JPY or EUR/USD, and it pulls the latest headlines from trusted financial news sources. Each headline gets sent to an LLM that classifies it as bullish, bearish, or neutral for that specific pair, filters out anything irrelevant, and produces a confidence-weighted overall verdict. The output is an HTML report that opens automatically in your browser.
+You run the script, enter a currency pair like GBP/JPY or EUR/USD, and it pulls the latest headlines from trusted financial news sources. Each headline gets sent to an LLM that classifies it as bullish, bearish, or neutral for that specific pair, filters out anything irrelevant, and produces a confidence weighted overall verdict. The output is an HTML report that opens automatically in your browser.
 
 ## How it works
 
@@ -60,7 +60,7 @@ Currently validating the tool against live paper trading sessions on TradingView
 |-|-|-|
 |In progress|—|—|
 
-Will update this table as data comes in.
+Will update this table as data comes in
 
 ## Notes
 
