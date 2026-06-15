@@ -52,8 +52,6 @@ Then run:
 python main.py
 ```
 
-\---
-
 ## Backtesting
 
 Currently validating the tool against live paper trading sessions on TradingView using the OANDA feed. Running the report each morning, logging the signal against actual GBP/JPY price movement at end of day.
@@ -63,8 +61,6 @@ Currently validating the tool against live paper trading sessions on TradingView
 |In progress|—|—|
 
 Will update this table as data comes in.
-
-\---
 
 ## Notes
 
