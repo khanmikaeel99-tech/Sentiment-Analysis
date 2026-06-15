@@ -2,13 +2,9 @@
 
 A tool I built to analyze financial and political news for forex currency pairs and generate a sentiment report classifying the overall market mood as bullish, bearish, or neutral. Built around my own forex trading experience to make the classifications actually useful rather than generic.
 
-\---
-
 ## What it does
 
 You run the script, enter a currency pair like GBP/JPY or EUR/USD, and it pulls the latest headlines from trusted financial news sources. Each headline gets sent to an LLM that classifies it as bullish, bearish, or neutral for that specific pair, filters out anything irrelevant, and produces a confidence-weighted overall verdict. The output is an HTML report that opens automatically in your browser.
-
-\---
 
 ## How it works
 
@@ -22,16 +18,12 @@ reporter.py takes the filtered and scored headlines, computes the overall verdic
 
 main.py ties it all together and handles the CLI.
 
-\---
-
 ## Tech stack
 
 * Python
 * Groq API (LLaMA3-70B-8192)
 * GNews API
 * python-dotenv
-
-\---
 
 ## Setup
 
